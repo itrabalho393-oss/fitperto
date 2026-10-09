@@ -106,7 +106,7 @@
 
   document.querySelectorAll('.map-link').forEach((link) => {
     link.addEventListener('click', () => {
-      showToast('Abrindo uma busca pública no Google Maps em nova aba.');
+      showToast('Fit Perto: Redirecionando para a busca no Google Maps...');
     });
   });
 
